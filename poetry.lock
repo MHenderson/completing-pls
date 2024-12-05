@@ -593,54 +593,46 @@ six = ">=1.5"
 
 [[package]]
 name = "ryser"
-version = "0.1.0.9001"
+version = "0.2.0"
 description = "Latin squares and related designs."
 optional = false
-python-versions = "^3.10"
-files = []
-develop = false
+python-versions = "<4.0,>=3.10"
+files = [
+    {file = "ryser-0.2.0-py3-none-any.whl", hash = "sha256:d6a2cc28d3d1f1e20b5b5d94f9c40e1d30a046e849fa55b05f04d17b025d16bb"},
+    {file = "ryser-0.2.0.tar.gz", hash = "sha256:9493502661e9f5715cc125e1acad1c3650523764bdaa0235008cc33fcc26bb7e"},
+]
 
 [package.dependencies]
-networkx = "^3.4.2"
-
-[package.source]
-type = "git"
-url = "https://github.com/MHenderson/ryser.git"
-reference = "HEAD"
-resolved_reference = "2e87a79403220c5baeaa709eb0ec0864ea589c29"
+networkx = ">=3.4.2,<4.0.0"
 
 [[package]]
 name = "six"
-version = "1.16.0"
+version = "1.17.0"
 description = "Python 2 and 3 compatibility utilities"
 optional = false
-python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"
 files = [
-    {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
-    {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
+    {file = "six-1.17.0-py2.py3-none-any.whl", hash = "sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"},
+    {file = "six-1.17.0.tar.gz", hash = "sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81"},
 ]
 
 [[package]]
 name = "vizing"
-version = "0.2.0.9000"
+version = "0.2.1"
 description = "Constraint-based list-colouring in Python."
 optional = false
-python-versions = "^3.10"
-files = []
-develop = false
+python-versions = "<4.0,>=3.10"
+files = [
+    {file = "vizing-0.2.1-py3-none-any.whl", hash = "sha256:315560edddc715c1f72098779da7b299ff0056c08079ed1574f63056cbe575aa"},
+    {file = "vizing-0.2.1.tar.gz", hash = "sha256:c827804ebc4b1a6420c0da378b1189e3d66031767ff15ca688ab1a4f30259aad"},
+]
 
 [package.dependencies]
-listcolouring = "^0.2.0"
-networkx = "^3.2.1"
-python-constraint = "^1.4.0"
-
-[package.source]
-type = "git"
-url = "https://github.com/MHenderson/vizing.git"
-reference = "HEAD"
-resolved_reference = "84a12e9ab6ffc9fb39aaed4eaf47db39d666e4de"
+listcolouring = ">=0.2.0,<0.3.0"
+networkx = ">=3.2.1,<4.0.0"
+python-constraint = ">=1.4.0,<2.0.0"
 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "78a469bac0ab688888ea2de8176ee82b810c7c6eae046804e8c23e18a7415f74"
+content-hash = "1d60b9c34c8d0b9b8588f98bdc2f2da3fd437e15f91dc0ea1f4517a9a1f4ec4a"
