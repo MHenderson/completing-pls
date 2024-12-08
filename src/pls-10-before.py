@@ -18,7 +18,7 @@ def draw_pls(F, size):
   mat = plt.matshow(matrix, cmap = custom_cmap, norm = norm)
   plt.axis('off')
 
-F_ = {(0, 0): 1, (0, 1): 10, (1, 5): 1, (2, 6): 3}
+F_ = {(0, 0): 1, (0, 1): 10, (1, 4): 1, (2, 5): 3}
 
 draw_pls(F_, 10)
 
